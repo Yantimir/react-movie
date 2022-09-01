@@ -1,0 +1,33 @@
+import React from 'react';
+
+import { Route, Switch } from 'react-router-dom';
+
+import { HomePage } from '../pages/HomePage';
+import { CatalogPage } from '../pages/CatalogPage';
+import { DetailPage } from '../pages/DetailPage';
+
+export const RoutesConfig = () => {
+  return (
+    <Switch>
+      <Route
+        path='/:category/search/:keyword'
+        component={CatalogPage}
+      />
+      <Route
+        path='/:category/:id'
+        component={DetailPage}
+      />
+      <Route
+        path='/:category'
+        component={CatalogPage}
+      />
+      <Route
+        path='/'
+        exact
+        component={HomePage}
+      />
+    </Switch>
+  )
+}
+
+
