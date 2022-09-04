@@ -5,21 +5,26 @@ import apiConfig from './apiConfig';
 
 const axiosClient = axios.create({
   baseURL: apiConfig.baseUrl,
-  head4ers: {
+  headers: {
     'Content-Type': 'application/json'
   },
-  paramsSerializer: (params) => queryString.stringify({...params, api_key: apiConfig.apiKey})
+  paramsSerializer: (params) => queryString.stringify(
+    {
+      ...params,
+      api_key: apiConfig.apiKey,
+      language: apiConfig.language
+    }
+  )
 });
 
 axiosClient.interceptors.request.use(async (config) => config);
 
 axiosClient.interceptors.response.use((response) => {
-  if (response && response.data){
+  if (response && response.data) {
     return response.data;
   }
-
   return response;
-}, (error) =>{
+}, (error) => {
   throw error
 });
 

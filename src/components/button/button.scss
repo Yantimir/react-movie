@@ -13,9 +13,10 @@ button {
   padding: 0.5rem 1.8rem;
   font-size: 1.5rem;
   font-weight: 600;
-  box-shadow: 0px 0px 7px 8px #ff00004d;
+  box-shadow: 0px 0px 7px 8px #3838384d;
   transition: box-shadow 0.3s ease;
   position: relative;
+  margin-right: 1rem;
 }
 
 .btn:hover {
@@ -27,6 +28,7 @@ button {
   background-color: transparent;
   color: $txt-color;
   transition: color 0.3s ease, background-color 0.3s ease;
+  // margin-bottom: 2rem;
 }
 
 .btn-outline:hover {

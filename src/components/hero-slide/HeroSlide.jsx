@@ -80,12 +80,13 @@ const HeroSlideItem = props => {
   const background = apiConfig.originalImage(item.backdrop_path ? item.backdrop_path : item.poster_path);
 
   const setModalActive = async () => {
+
     const modal = document.querySelector(`#modal_${item.id}`);
 
     const videos = await tmdbApi.getVideos(category.movie, item.id);
 
     if (videos.results.length > 0) {
-      const videoSrc = 'https://www.youtube.com/embed' + videos.results[0].key;
+      const videoSrc = 'https://www.youtube.com/embed/' + videos.results[0].key;
       modal.querySelector('.modal__content > iframe').setAttribute('src', videoSrc);
     } else {
       modal.querySelector('.modal__content').innerHTML = 'No trailer';
@@ -105,10 +106,10 @@ const HeroSlideItem = props => {
           <div className='overview'>{item.overview}</div>
           <div className='btns'>
             <Button onClick={() => history.push('/movie/' + item.id)}>
-              Watch now
+              Смотреть
             </Button>
             <OutlineButton onClick={setModalActive}>
-              Watch trailer
+              Трейлер
             </OutlineButton>
           </div>
         </div>
