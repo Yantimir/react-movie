@@ -44,7 +44,7 @@ export const HomePage = () => {
 
         <div className="section mb-3">
           <div className="section__header mb-2">
-            <h2>Топ сериалов</h2>
+            <h2>Топ сериалы</h2>
             <Link to="/tv">
               <OutlineButton className="small">Смотреть больше</OutlineButton>
             </Link>

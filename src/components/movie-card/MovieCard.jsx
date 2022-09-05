@@ -23,9 +23,10 @@ const MovieCard = props => {
         <Button>
           <i className='bx bx-play'></i>
         </Button>
+        <h4 className='card-rating'>⭐{item.vote_average}</h4>
+        {/* <h4 className='card-rating'>{item.vote_average}</h4> */}
       </div>
       <h3>{item.title || item.name}</h3>
-      <h4>⭐{item.vote_average}</h4>
     </Link>
   )
 }
