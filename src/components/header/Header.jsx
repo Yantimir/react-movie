@@ -1,7 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './header.scss';
-import logo from '../../assets/tmovie.png';
+// import logo from '../../assets/tmovie.png';
+import logo from '../../assets/green-play.webp';
 
 const headerNav = [
   {
@@ -45,7 +46,7 @@ export const Header = () => {
       <div className="header__wrap container">
         <div className="logo">
           <img src={logo} alt="logo" />
-          <Link to='/'>tMovies</Link>
+          <Link to='/'>tmdbMovies</Link>
         </div>
         <ul className="header__nav">
           {
