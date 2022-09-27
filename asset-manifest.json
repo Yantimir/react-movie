@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.54029e51.css",
-    "main.js": "/static/js/main.5f10fae2.js",
-    "static/media/boxicons.svg": "/static/media/boxicons.045b05bf2dc119267a90.svg",
-    "static/media/footer-bg.jpg": "/static/media/footer-bg.67e95f05e76a8cebf7e2.jpg",
-    "static/media/boxicons.eot": "/static/media/boxicons.092b78589f3f53e60030.eot",
-    "static/media/boxicons.woff": "/static/media/boxicons.0f4528cf3c75a4b361c0.woff",
-    "static/media/boxicons.ttf": "/static/media/boxicons.cbd149c55e2396cb52e7.ttf",
-    "static/media/boxicons.woff2": "/static/media/boxicons.8d765747a5588f36ff61.woff2",
-    "static/media/green-play.webp": "/static/media/green-play.244d49a29bbdbe660820.webp",
-    "index.html": "/index.html",
-    "main.54029e51.css.map": "/static/css/main.54029e51.css.map",
-    "main.5f10fae2.js.map": "/static/js/main.5f10fae2.js.map"
+    "main.css": "/react-movie/static/css/main.b99743b4.css",
+    "main.js": "/react-movie/static/js/main.e52957f4.js",
+    "static/media/boxicons.svg": "/react-movie/static/media/boxicons.045b05bf2dc119267a90.svg",
+    "static/media/footer-bg.jpg": "/react-movie/static/media/footer-bg.67e95f05e76a8cebf7e2.jpg",
+    "static/media/boxicons.eot": "/react-movie/static/media/boxicons.092b78589f3f53e60030.eot",
+    "static/media/boxicons.woff": "/react-movie/static/media/boxicons.0f4528cf3c75a4b361c0.woff",
+    "static/media/boxicons.ttf": "/react-movie/static/media/boxicons.cbd149c55e2396cb52e7.ttf",
+    "static/media/boxicons.woff2": "/react-movie/static/media/boxicons.8d765747a5588f36ff61.woff2",
+    "static/media/green-play.webp": "/react-movie/static/media/green-play.244d49a29bbdbe660820.webp",
+    "index.html": "/react-movie/index.html",
+    "main.b99743b4.css.map": "/react-movie/static/css/main.b99743b4.css.map",
+    "main.e52957f4.js.map": "/react-movie/static/js/main.e52957f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.54029e51.css",
-    "static/js/main.5f10fae2.js"
+    "static/css/main.b99743b4.css",
+    "static/js/main.e52957f4.js"
   ]
 }
