@@ -19,7 +19,7 @@
     }
 
     &__content {
-        padding: 2rem;
+        padding: 2.5rem 0 0 0;
         background-color: $body-bg;
         width: 50%;
         opacity: 0;
@@ -41,6 +41,16 @@
             &:hover {
                 color: $main-color;
             }
+        }
+
+        &__error {
+            position: absolute;
+            top: 50%;
+            right: 40%;
+            // left: 50%;
+            // bottom: 50%;
+            white-space: nowrap; 
+            font-size: 20px;
         }
     }
 

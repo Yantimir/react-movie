@@ -41,6 +41,7 @@ export const ModalContent = props => {
       <div className="modal__content__close" onClick={closeModal}>
         <i className='bx bx-x'></i>
       </div>
+      <div className="modal__content__error"></div>
     </div>
   );
 }

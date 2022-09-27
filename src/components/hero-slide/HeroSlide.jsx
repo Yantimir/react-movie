@@ -89,7 +89,7 @@ const HeroSlideItem = props => {
       const videoSrc = 'https://www.youtube.com/embed/' + videos.results[0].key;
       modal.querySelector('.modal__content > iframe').setAttribute('src', videoSrc);
     } else {
-      modal.querySelector('.modal__content').innerHTML = 'No trailer';
+      modal.querySelector('.modal__content__error').innerHTML = 'No trailer';
     }
 
     modal.classList.toggle('active');
