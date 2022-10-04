@@ -8,7 +8,7 @@ import { RoutesConfig } from './config/RoutesConfig';
 
 function App() {
   return (
-    <HashRouter basename="/react-movie">
+    <HashRouter>
       <Route render={props => (
         <>
           <Header {...props} />
